@@ -10,6 +10,7 @@ import com.word.wordguess.entity.WordGuess;
 @Repository
 public interface WordGuessDao extends JpaRepository<WordGuess, Long> {
 	
-	
 	Optional<WordGuess> findById(Long id);
+
+	void save(Optional<WordGuess> wordGuess);
 }
