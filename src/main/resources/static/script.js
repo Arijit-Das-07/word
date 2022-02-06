@@ -12984,7 +12984,7 @@ const dayOffset = msOffset / 1000 / 60 / 60 / 24
 let targetWord = ""
 
 
-fetch(`/getwordbyid/1`, {
+fetch(`/gettodaysword`, {
   method: "GET",
 })
     .then((response) => {
