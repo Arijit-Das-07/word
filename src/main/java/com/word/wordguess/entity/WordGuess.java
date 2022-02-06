@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="word_details",schema="word")
+@Table(name="word_details")
 public class WordGuess {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
